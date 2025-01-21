@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checkout step'
-                //git url: 'https://github.com/Jaheckelsafar/playing-with-pipelines.git', branch: 'main'
+                git url: 'https://github.com/Jaheckelsafar/playing-with-pipelines.git', branch: 'main'
             }
         }
 
