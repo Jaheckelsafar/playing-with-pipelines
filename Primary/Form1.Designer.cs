@@ -1,0 +1,72 @@
+﻿namespace Primary
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            btnClose = new Button();
+            lblHello = new Label();
+            SuspendLayout();
+            // 
+            // btnClose
+            // 
+            btnClose.Location = new Point(23, 48);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(75, 23);
+            btnClose.TabIndex = 0;
+            btnClose.Text = "&Close";
+            btnClose.UseVisualStyleBackColor = true;
+            btnClose.Click += button1_Click;
+            // 
+            // lblHello
+            // 
+            lblHello.AutoSize = true;
+            lblHello.Location = new Point(27, 15);
+            lblHello.Name = "lblHello";
+            lblHello.Size = new Size(79, 15);
+            lblHello.TabIndex = 1;
+            lblHello.Text = "Hello World!!!";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(213, 97);
+            Controls.Add(lblHello);
+            Controls.Add(btnClose);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Button btnClose;
+        private Label lblHello;
+    }
+}

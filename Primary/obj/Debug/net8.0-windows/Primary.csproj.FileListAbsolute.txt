@@ -1,0 +1,17 @@
+C:\Work\playing-with-pipelines\Primary\bin\Debug\net8.0-windows\Primary.exe
+C:\Work\playing-with-pipelines\Primary\bin\Debug\net8.0-windows\Primary.deps.json
+C:\Work\playing-with-pipelines\Primary\bin\Debug\net8.0-windows\Primary.runtimeconfig.json
+C:\Work\playing-with-pipelines\Primary\bin\Debug\net8.0-windows\Primary.dll
+C:\Work\playing-with-pipelines\Primary\bin\Debug\net8.0-windows\Primary.pdb
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.Form1.resources
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.csproj.GenerateResource.cache
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.AssemblyInfoInputs.cache
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.AssemblyInfo.cs
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.csproj.CoreCompileInputs.cache
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.sourcelink.json
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.dll
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\refint\Primary.dll
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.pdb
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\Primary.genruntimeconfig.cache
+C:\Work\playing-with-pipelines\Primary\obj\Debug\net8.0-windows\ref\Primary.dll
