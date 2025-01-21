@@ -4,12 +4,14 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Jaheckelsafar/playing-with-pipelines.git', branch: 'main'
+                echo("Checkout step")
+/*                git url: 'https://github.com/Jaheckelsafar/playing-with-pipelines.git', branch: 'main' */
             }
         }
 
         stage('Build') {
             steps {
+                echo("Build step")
                 // Install dependencies
                 sh 'npm install'
             }
@@ -17,6 +19,7 @@ pipeline {
 
         stage('Test') {
             steps {
+                echo("Test step")
                 // Run tests
                 sh 'npm test'
             }
@@ -24,6 +27,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
+                echo("Delpoy step")
                 // Deployment logic goes here (e.g., pushing to a cloud provider)
                 echo 'Deploying application...'
             }
